@@ -1,0 +1,42 @@
+.collection-menu {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.sidebar {
+  width: 25%; /* Adjust to make the sidebar take up more or less space */
+  background-color: #f9f9f9; /* Optional background color */
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+.collection-menu nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.collection-menu nav ul li {
+  display: flex;
+  align-items: center;
+}
+
+.collection-menu nav ul li img {
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.collection-menu nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.collection-menu nav ul li a:hover {
+  color: #007bff;
+}
